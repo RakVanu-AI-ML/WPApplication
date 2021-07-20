@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent none
      stage('test pipeline') {
         sh(script: """
             echo "hello"
