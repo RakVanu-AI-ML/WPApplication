@@ -1,6 +1,5 @@
 pipeline {
-    agent {  
-        stages{
+    agent any
      stage('test pipeline') {
         sh(script: """
             echo "hello"
@@ -9,7 +8,5 @@ pipeline {
            
            docker build . -t test
         """)
-     }
-    }
     }
 }
