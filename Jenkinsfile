@@ -1,6 +1,6 @@
 pipeline {
     agent none
-     stage('test pipeline') {
+     stage("test pipeline") {
         sh(script: """
             echo "hello"
            git clone https://github.com/RakVanu/WPApplication.git
