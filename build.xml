@@ -10,9 +10,6 @@
     <target name="jar">
         <mkdir dir="build/jar"/>
         <jar destfile="build/jar/WPApplication.jar" basedir="build/classes">
-            <manifest>
-                <attribute name="Main-Class" value="oata.WPApplication"/>
-            </manifest>
         </jar>
     </target>
 
