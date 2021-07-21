@@ -1,5 +1,4 @@
 <project>
-
     <target name="clean">
         <delete dir="build"/>
     </target>
@@ -21,6 +20,4 @@
     <target name="run">
         <java jar="build/jar/WPApplication.jar" fork="true"/>
     </target>
-
 </project>
-Now you can compile, p
